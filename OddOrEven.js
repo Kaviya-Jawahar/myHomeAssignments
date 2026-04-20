@@ -2,10 +2,10 @@ function isOddOrEven(){
     let a=7;
     if ((a % 2) === 0)
     {
-        console.log("odd");
+        console.log("even");
     }
     else {
-        console.log("even");
+        console.log("odd");
     }
 }
 isOddOrEven()

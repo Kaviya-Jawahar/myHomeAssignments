@@ -1,0 +1,28 @@
+function launchBrowser() {
+     let browserName = "chrome"; 
+    if (browserName === "chrome") {
+        console.log("Launching Chrome browser");
+    } else {
+        console.log("Launching other browser");
+    }
+}
+
+// Function 2: runTests using switch
+function runTests() {
+    let testType = "smoke";
+    switch (testType) {
+        case "smoke":
+            console.log("Running Smoke tests");
+            break;
+        case "sanity":
+            console.log("Running Sanity tests");
+            break;
+        case "regression":
+            console.log("Running Regression tests");
+            break;
+        default:
+            console.log("Running Smoke tests"); // default case
+    }
+}
+launchBrowser();
+runTests();
